@@ -1,0 +1,8 @@
+.profile-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 90%;
+    gap: 40px;
+}

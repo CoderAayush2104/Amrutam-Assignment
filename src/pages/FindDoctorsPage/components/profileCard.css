@@ -1,0 +1,116 @@
+.profile-card{
+    height: 80%;
+    width: 22.5%;
+    border: 1px solid #E3E3E3;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 25px;
+    box-shadow: 0px 4px 12.5px 0px #00000012;
+    background-color: var(--background-colour);
+    font-family: "Nunito";
+}
+.profile-card-image-container{
+    position: relative;
+    display: flex;
+    height: 30%;
+    justify-content: center;
+
+}
+.profile-card-image{
+    height: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.profile-card-rating{
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(180deg, #0B0B0B 0%, rgba(11, 11, 11, 0.79) 100%);
+    font-weight: 700;
+    color: white;
+    padding: 4px 12px 4px 12px;
+    border-radius: 15px;
+}
+.star{
+    color:  #EFDA3B;
+}
+.profile-card-name{
+    
+    font-size: 32px;
+    font-weight: 700;
+    margin-right: auto;
+}
+.profile-card-details{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.profile-card-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 90%;
+    color: var(--text-colour-card-info);
+}
+
+.card-info-line{
+    display: flex;
+    gap: 10px;
+}
+.fees-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+   
+}
+.fees{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid #3A643B63;
+    border-radius: 10px;
+    padding: 8px 0px 8px 0px;
+    width: 45%;
+}
+.fees-title,.fees-amount{
+    word-wrap: none;
+    font-size: 14px;
+}
+.fees-title{
+    font-weight: 600;
+    color: #3C3C3C;
+}
+.fees-amount{
+    font-weight: 700;
+    color: var(--text-colour-green);
+}
+.profile-card-button-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.view-profile-button,.booking-button{
+    outline: 0;
+    border: 0;
+    font-family: "Nunito";
+    font-size: 16px;
+    padding: 15px 30px 15px 30px;
+    border-radius: 8px;
+}
+
+.view-profile-button{
+    width: 100%;
+    background-color: white;
+    color: var(--text-colour-green);
+    border: 1px solid var(--text-colour-green);
+}
+.booking-button{
+    background-color: var(--text-colour-green);
+    color: white;
+
+}

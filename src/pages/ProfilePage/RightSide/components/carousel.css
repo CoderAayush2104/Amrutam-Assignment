@@ -1,0 +1,90 @@
+.carousel {
+    display: flex;
+    width: 100%;
+    align-items: center;
+ 
+    gap: 20px;
+}
+
+.carousel>button {
+    height: fit-content;
+    width: fit-content;
+    outline: 0;
+    border: 0;
+    background: none;
+
+}
+
+.carousel>button:disabled>img {
+    transition: all 1s ease;
+    opacity: 0.5;
+}
+
+.carousel-content {
+    justify-content: center;
+    display: flex;
+    width: 95%;
+    gap: 20px;
+    overflow-x: hidden;
+
+}
+
+.slide-date {
+    color: black;
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 16px;
+    transition: all 0.25s ease-in-out;
+}
+
+.slide-slots {
+    font-family: "Nunito";
+    font-weight: 700;
+    font-size: 16px;
+    color: #818181;
+}
+
+.slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 30%;
+    padding: 15px 10px 15px 10px;
+    border: 1.5px solid #E2E2E2;
+    border-radius: 10px;
+    transition: all 0.25s ease-in-out;
+}
+
+@keyframes fadeAndScale {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.fade-and-scale {
+    animation: fadeAndScale 0.5s ease forwards;
+}
+
+
+.slide:hover {
+    cursor: pointer;
+}
+
+
+.slide.selected {
+    border-color: #3A643B85;
+    background-color: #F2FBF2;
+}
+.slide.selected > .slide-date{
+    color: var(--text-colour-green);
+}
+button {
+    cursor: pointer;
+}

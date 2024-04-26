@@ -1,0 +1,26 @@
+.concerns-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 100%;
+ 
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid #DCDCDC;
+}
+.tags-container{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 10px;
+}
+.tag{
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--text-colour-green);
+    background-color: #F7F7FC;
+    padding: 10px 20px 10px 20px;
+    border-radius: 18px;
+}

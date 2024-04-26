@@ -1,0 +1,112 @@
+.about-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid #DCDCDC;
+}
+
+
+
+.follow-button{
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 16px;
+    border: 1px solid var(--text-colour-green);
+    border-radius: 10px;
+    background: none;
+    padding: 0px 15px 0px 15px;
+}
+.plus-sign{
+    font-size: 25px;
+    font-weight: 300;
+}
+.intro-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+  
+
+  
+.intro {
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color : #33354880;
+   height: auto;
+  transition: height 0.5s cubic-bezier(0, 1, 0, 1);
+}
+  
+.intro.full {
+    height: fit-content;
+    transition: max-height 0.5s ease-in-out;
+}
+.read-more-button-container{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    background-color: read-more-button-container;
+    height: 20%;
+    width: 100%;
+}
+.intro-rule{
+    border: 1px solid #D1D5D1;
+    width: 85%;
+}
+#more {
+    display: none;
+  }
+.read-more{
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 15px;
+    background: none;
+    border: 0;
+    outline: 0;
+    margin-left: auto;
+    text-decoration: underline;
+}
+.languages-container{
+    
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    font-family: "Nunito";
+    font-weight: 500;
+    font-size: 20px;
+    gap: 15px;
+}
+.language{
+    padding: 10px 20px 10px 20px;
+    background-color: #2E37A40A;
+    color: #505050;
+    border-radius: 16px;
+}
+.socials-container{
+    display: flex;
+    gap:10px;
+    width: 100%;
+    height: 10%;
+}
+.socials-icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F7F7FC;
+    border: 1px solid #8E8E8E;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}

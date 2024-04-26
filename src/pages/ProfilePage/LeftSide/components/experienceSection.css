@@ -1,0 +1,75 @@
+.experience-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid #DCDCDC;
+    font-family: "Poppins";
+}
+.experience-section > .section-content{
+    gap: 20px;
+}
+.experienc-intro{
+    
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--text-colour-green);
+    text-transform: uppercase;
+}
+.experience-rule{
+    border: 1px solid #D1D5D1;
+    width: 70%;
+}
+.experiences{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+
+    width: 100%;
+}
+.experience-row{
+    display: flex;
+    height: 100%;
+    /* justify-content: space-between; */
+    gap: 10px;
+    width: 75%;
+}
+.experience-icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 100%;
+    aspect-ratio: 1;
+    width: fit-content;
+    background-color: #F7F7FC;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.experience-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.experience-place{
+    font-weight: 500;
+    font-size: 16px;
+    color : #333548;
+}
+.experience-position{
+    font-weight: 500;
+    font-size: 16px;
+    color : #33354880;
+
+}
+.experience-period{
+    width: 25%;
+    margin-left: auto;
+    color: #333548B5;
+    text-align: start;
+}

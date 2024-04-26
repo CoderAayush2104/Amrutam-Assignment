@@ -1,0 +1,41 @@
+.specialization-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    width: 100%;
+ 
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid #DCDCDC;
+}
+.specializations-container{
+    display: flex;
+    gap: 15px;
+}
+.specialization-icon-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    font-family: "Nunito";
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+}
+.specialization-icon{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFCF2;
+    border: 1px solid #EAEAEA;
+    border-radius: 10px;
+}
+.specialization-icon > img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
